@@ -9,6 +9,21 @@ This project is used as a sample project to show how to use IntelliJ with GitHub
 Using the provided seed data, the given endpoint will produce the stated output. Expand each endpoint to see it's correct output.
 
 <details>
+<summary>http://localhost:8080/cats</summary>
+
+```JSON
+[
+  {
+      "id": 1,
+      "name": "Tiger"
+    }
+]
+```
+
+</details>
+
+
+<details>
 <summary>http://localhost:8080/dogs</summary>
 
 ```JSON
@@ -22,7 +37,7 @@ Using the provided seed data, the given endpoint will produce the stated output.
     }, {
       "id": 3,
       "name": "Odie"
-}
+  }
 ]
 ```
 
