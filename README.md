@@ -13,18 +13,16 @@ Using the provided seed data, the given endpoint will produce the stated output.
 
 ```JSON
 [
-    {
-        "dogid": 1,
-        "dogname": "Dottie"
-    },
-    {
-        "dogid": 2,
-        "dogname": "Ginger"
-    },
-    {
-        "dogid": 3,
-        "dogname": "Odie"
-    }
+  {
+      "id": 1,
+      "name": "Dottie"
+    }, {
+      "id": 2,
+      "name": "Ginger"
+    }, {
+      "id": 3,
+      "name": "Odie"
+}
 ]
 ```
 
