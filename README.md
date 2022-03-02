@@ -23,23 +23,10 @@ Using the provided seed data, the given endpoint will produce the stated output.
     },
     {
         "dogid": 3,
-        "dogname": "Mojo"
+        "dogname": "Odie"
     }
 ]
 ```
 
 </details>
 
-<details>
-<summary>http://localhost:8080/cats</summary>
-
-```JSON
-[
-    {
-        "catid": 4,
-        "catname": "Tiger"
-    }
-]
-```
-
-</details>
