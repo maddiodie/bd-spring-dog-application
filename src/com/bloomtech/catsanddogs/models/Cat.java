@@ -1,11 +1,11 @@
-package com.bloomtech.dogs.models;
+package com.bloomtech.catsanddogs.models;
 
-public class Dog
+public class Cat
 {
     private final long id;
     private String name;
 
-    public Dog(long id, String name) {
+    public Cat(long id, String name) {
         this.id = id;
         this.name = name;
     }

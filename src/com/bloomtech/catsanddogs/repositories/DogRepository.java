@@ -1,6 +1,6 @@
-package com.bloomtech.dogs.repositories;
+package com.bloomtech.catsanddogs.repositories;
 
-import com.bloomtech.dogs.models.Dog;
+import com.bloomtech.catsanddogs.models.Dog;
 
 import java.util.List;
 

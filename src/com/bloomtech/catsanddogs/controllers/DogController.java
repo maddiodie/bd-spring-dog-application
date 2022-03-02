@@ -1,7 +1,6 @@
-package com.bloomtech.dogs.controllers;
+package com.bloomtech.catsanddogs.controllers;
 
-import com.bloomtech.dogs.repositories.DogRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.bloomtech.catsanddogs.repositories.DogRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;

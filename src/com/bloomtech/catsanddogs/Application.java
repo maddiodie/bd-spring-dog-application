@@ -1,13 +1,13 @@
-package com.bloomtech.dogs;
+package com.bloomtech.catsanddogs;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DogsApplication
+public class Application
 {
     public static void main(String[] args) {
-        SpringApplication.run(DogsApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
