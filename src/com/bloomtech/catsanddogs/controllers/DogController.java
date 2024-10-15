@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DogController
-{
+public class DogController {
     private DogRepository dogRepos = new DogRepository();
 
     @GetMapping(value = "/dogs", produces = {"application/json"})
-    public ResponseEntity<?> findAllDogs()
-    {
+    public ResponseEntity<?> findAllDogs() {
+        System.out.println("Method in DogController class was called.");
         return new ResponseEntity<>(dogRepos.getDogs(), HttpStatus.OK);
     }
 }
